@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <title>knex-joins-stories</title>
-</head>
-<body>
-    <header>{{>header}}</header>
-    <a href='/signUp'>
-    <form>
-    <p>username:<textarea rows="1" cols="50" placeholder="Enter your username"></textarea></p>
-    <p>password:<textarea rows="1" cols="50" placeholder="Enter your password"></textarea></p>
-    <button></button>
-    </form>
+<header>{{>header}}</header>
 
-    <footer>{{>footer}}</footer>
-</body>
+<a href='/signup'>
+  <p>Sign up</p>
+</a>
+
+<form method='post'>
+  <p>username:<textarea rows="1" cols="50" placeholder="Enter your username"></textarea></p>
+  <p>password:<textarea rows="1" cols="50" placeholder="Enter your password"></textarea></p>
+  <button type='submit'>Log In</button>
+</form>
+
+<footer>{{>footer}}</footer>
